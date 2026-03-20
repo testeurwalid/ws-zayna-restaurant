@@ -1,0 +1,240 @@
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="generator" content="WebStudio SiteGen 8.2.0"><title>Zayna Restaurant — restaurant à Casablanca</title><meta name="description" content="·  Repas sur place ·  Livraison "><meta property="og:title" content="Zayna Restaurant — restaurant à Casablanca"><meta property="og:description" content="·  Repas sur place ·  Livraison "><meta property="og:image" content="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkjZslwROKtzlHmxjvoKIQAbGuG1lcZMELkaUtKoR7-RG4BvnfxsDW44bv_3j6Ybnh9JLDWfY2vQcdqaAso0cd19JFKSuEt58A1nQPZ1vpklJAozC9ArPL2R7uxeMBQilNP_bx_QhTahmK=w1200-h800-p-k-no"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><style>@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,600&family=Source+Sans+3:wght@300;400;500;600;700&display=swap");</style><style>:root{--bg:#140A05;--fg:#FFF3E6;--mut:rgba(255,243,230,.66);--line:rgba(255,243,230,.14);--acc:#FF6434;--acc2:#F5A10A;--card:rgba(255,107,53,.10);--fh:'Playfair Display', ui-serif, Georgia, serif;--fb:'Source Sans 3', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;--r:22px;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(900px 420px at 10% 10%, rgba(34,197,94,.12), transparent 55%),radial-gradient(900px 520px at 90% 20%, rgba(244,63,94,.12), transparent 60%),var(--bg);color:var(--fg);font-family:var(--fb);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+::selection{background:var(--acc);color:#000}
+
+header{position:fixed;inset:0 0 auto 0;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:16px 6vw;z-index:60;transition:all .25s}
+header.sc{background:rgba(5,6,10,.78);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.logo{font-family:var(--fh);letter-spacing:.10em;text-transform:uppercase;text-decoration:none;font-size:22px}
+.burger{display:none;gap:6px;flex-direction:column;background:transparent;border:0;padding:8px;cursor:pointer}
+.burger span{width:22px;height:2px;background:var(--fg);border-radius:2px;opacity:.85}
+.nav{display:flex;align-items:center;gap:10px}
+.nav a{text-decoration:none;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--mut);padding:10px 10px;border-radius:999px;transition:all .2s}
+.nav a:hover{color:var(--fg);background:rgba(255,255,255,.06)}
+.nav .navcta{background:var(--acc);color:#000;font-weight:900}
+
+.hero{min-height:100vh;display:grid;align-items:end;position:relative;overflow:hidden}
+.hbg{position:absolute;inset:0;background-size:cover;background-position:center;filter:saturate(1.12) contrast(1.12);transform:scale(1.03)}
+.hov{position:absolute;inset:0;background:linear-gradient(180deg, rgba(5,6,10,.10) 0%, rgba(5,6,10,.92) 72%)}
+.hinner{position:relative;z-index:2;padding:128px 6vw 66px;max-width:1240px;display:grid;grid-template-columns:1.05fr .95fr;gap:16px;align-items:end}
+.k{letter-spacing:.22em;text-transform:uppercase;font-size:12px;color:var(--mut)}
+.h1{font-family:var(--fh);font-size:clamp(60px,8vw,116px);line-height:.86;margin:14px 0 10px}
+.sub{color:var(--mut);line-height:1.85;max-width:62ch}
+.punch{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.btn{display:inline-block;text-decoration:none;border-radius:16px;padding:12px 14px;font-weight:950;letter-spacing:.06em;font-size:12px;border:1px solid var(--line);color:var(--fg);background:rgba(255,255,255,.03);transition:transform .2s}
+.btn:hover{transform:translateY(-1px)}
+.btn.acc{background:var(--acc);color:#000;border-color:transparent}
+
+.tops{border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.03);backdrop-filter:blur(14px);padding:16px}
+.tops h3{margin:0 0 10px;font-size:12px;letter-spacing:.18em;text-transform:uppercase}
+.top{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-bottom:1px dashed rgba(255,255,255,.14)}
+.top:last-child{border-bottom:0}
+.top b{font-size:14px}
+.top span{display:block;margin-top:3px;color:var(--mut);font-size:12px;line-height:1.7}
+.top em{font-style:normal;font-family:var(--fh);font-size:16px;color:var(--acc2);white-space:nowrap}
+
+section{padding:76px 6vw;border-top:1px solid var(--line)}
+.wrap{max-width:1240px;margin:0 auto}
+.h2{font-family:var(--fh);font-size:clamp(34px,3.4vw,66px);margin:0 0 10px}
+.p{color:var(--mut);line-height:1.85;max-width:74ch}
+
+.cards{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:22px}
+.card{grid-column:span 4;background:rgba(0,0,0,.22);border:1px solid var(--line);border-radius:22px;padding:16px;position:relative;overflow:hidden}
+.card::after{content:"";position:absolute;inset:-40% -40% auto auto;width:220px;height:220px;background:radial-gradient(circle at 30% 30%, rgba(34,197,94,.18), transparent 65%)}
+.card b{display:block;font-size:14px}
+.card p{margin:8px 0 0;color:var(--mut);line-height:1.8;font-size:13px}
+.card .m{margin-top:12px;display:flex;gap:8px;flex-wrap:wrap}
+.pill{border:1px solid var(--line);border-radius:999px;padding:7px 10px;color:var(--mut);font-size:12px}
+
+.menuGrid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:18px}
+.mcard{grid-column:span 6;border:1px solid var(--line);border-radius:22px;padding:14px;background:rgba(255,255,255,.03);display:flex;justify-content:space-between;gap:14px}
+.mcard b{display:block;font-size:14px}
+.mcard span{display:block;margin-top:4px;color:var(--mut);font-size:12px;line-height:1.7;max-width:56ch}
+.mprice{font-family:var(--fh);font-size:16px;color:var(--acc2);white-space:nowrap}
+
+.gal{display:grid;grid-template-columns:repeat(12,1fr);gap:12px;margin-top:22px}
+.gal a{grid-column:span 4;border-radius:18px;overflow:hidden;border:1px solid var(--line);cursor:pointer;position:relative}
+.gal img{width:100%;height:170px;object-fit:cover;display:block;transform:scale(1.02);transition:transform .35s}
+.gal a:hover img{transform:scale(1.08)}
+.gal a em{position:absolute;inset:auto 10px 10px 10px;background:rgba(5,6,10,.70);border:1px solid var(--line);border-radius:999px;padding:8px 10px;font-style:normal;font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+
+.contact{display:grid;grid-template-columns:1.1fr .9fr;gap:12px;margin-top:22px}
+.box{border:1px solid var(--line);border-radius:22px;padding:16px;background:rgba(255,255,255,.03)}
+.box a{color:var(--fg)}
+.btn2{display:inline-block;margin-top:12px;background:var(--acc);color:#000;text-decoration:none;padding:12px 14px;border-radius:16px;font-weight:950}
+
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;align-items:center;justify-content:center;z-index:200}
+#lb.on{display:flex}
+#lb img{max-width:92vw;max-height:86vh;border-radius:18px;border:1px solid var(--line)}
+#lb button{position:absolute;top:18px;right:18px;background:rgba(255,255,255,.08);border:1px solid var(--line);color:var(--fg);border-radius:999px;padding:10px 12px;cursor:pointer}
+
+.tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}
+.t{border:1px solid var(--line);border-radius:22px;padding:16px;background:rgba(255,255,255,.03)}
+.t blockquote{margin:0;line-height:1.8;color:var(--fg);font-size:13px}
+.t figcaption{margin-top:10px;color:var(--mut);font-size:12px}
+.t figcaption b{display:block;color:var(--fg)}
+.t figcaption span{display:block;margin-top:2px}
+
+.faqs{display:grid;gap:10px;margin-top:22px}
+.faq{border:1px solid var(--line);border-radius:22px;overflow:hidden;background:rgba(255,255,255,.03)}
+.faq-q{width:100%;display:flex;align-items:center;justify-content:space-between;gap:12px;text-align:left;background:transparent;border:0;color:var(--fg);padding:14px 16px;cursor:pointer;font-weight:900;letter-spacing:.06em}
+.faq-q i{font-style:normal;color:var(--mut)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .25s ease}
+.faq-a>div{padding:0 16px 16px;color:var(--mut);line-height:1.8;font-size:13px}
+.faq.open .faq-q i{color:var(--acc)}
+
+[data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+[data-reveal].in{opacity:1;transform:none}
+
+@media (max-width: 980px){
+  .hinner{grid-template-columns:1fr;}
+  .cards .card{grid-column:span 6}
+  .menuGrid .mcard{grid-column:span 12}
+  .tgrid{grid-template-columns:1fr;}
+  .contact{grid-template-columns:1fr;}
+}
+@media (max-width: 720px){
+  .burger{display:flex}
+  .nav{position:fixed;inset:70px 12px auto 12px;display:none;flex-direction:column;align-items:stretch;background:rgba(5,6,10,.88);backdrop-filter:blur(18px);border:1px solid var(--line);border-radius:18px;padding:12px}
+  .nav.open{display:flex}
+  .cards .card{grid-column:span 12}
+}
+
+[data-reveal]{opacity:1;transform:none}
+.js [data-reveal]{opacity:0;transform:translateY(16px);transition:opacity .6s ease, transform .6s ease}
+.js [data-reveal].in{opacity:1;transform:none}
+</style><script type="application/ld+json">{"@context": "https://schema.org", "@type": "LocalBusiness", "name": "Zayna Restaurant", "address": {"@type": "PostalAddress", "streetAddress": "44 Rue Ibnou Khaldoun, Casablanca 20000", "addressLocality": "Casablanca", "addressCountry": "MA"}, "telephone": "+212522542596", "url": "http://www.restaurantzayna.com/"}</script></head><body id="top"><header><a class="logo" href="#top">Zayna Restaurant</a><button class="burger" data-burger aria-label="Menu" aria-expanded="false"><span></span><span></span></button><nav class="nav" data-nav><a href="#specialites">Spécialités</a><a href="#menu">Menu</a><a href="#experience">Ambiance</a><a href="#avis">Avis</a><a href="#contact">Réserver</a><a href="#faq">FAQ</a><a class="navcta" href="#contact">Contact</a></nav></header><main><section class="hero"><div class="hbg" style="background-image:url('https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkjZslwROKtzlHmxjvoKIQAbGuG1lcZMELkaUtKoR7-RG4BvnfxsDW44bv_3j6Ybnh9JLDWfY2vQcdqaAso0cd19JFKSuEt58A1nQPZ1vpklJAozC9ArPL2R7uxeMBQilNP_bx_QhTahmK=w1200-h800-p-k-no');" data-bg="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkjZslwROKtzlHmxjvoKIQAbGuG1lcZMELkaUtKoR7-RG4BvnfxsDW44bv_3j6Ybnh9JLDWfY2vQcdqaAso0cd19JFKSuEt58A1nQPZ1vpklJAozC9ArPL2R7uxeMBQilNP_bx_QhTahmK=w1200-h800-p-k-no|https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E"></div><div class="hov"></div><div class="hinner"><div><div class="k">restaurant · Casablanca</div><h1 class="h1" data-reveal>Table &amp; saveurs à Casablanca</h1><p class="sub" data-reveal>Une carte courte, bien exécutée, et une ambiance qui donne envie de revenir.</p><div class="punch" data-reveal><a class="btn acc" href="https://wa.me/212522542596?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a><a class="btn" href="#menu">Menu</a><a class="btn" href="#contact">Contact</a></div></div><div class="tops" data-reveal><h3>Top du moment</h3><div class="top" data-reveal><div><b>Tajine poulet citron</b><span>Olives, citron confit</span></div><em>78 MAD</em></div><div class="top" data-reveal><div><b>Tajine agneau pruneaux</b><span>Amandes, cannelle</span></div><em>92 MAD</em></div><div class="top" data-reveal><div><b>Orange à la cannelle</b><span>Simple et frais</span></div><em>22 MAD</em></div></div></div></section><section id="specialites"><div class="wrap"><h2 class="h2">Best-sellers</h2><p class="p">Simple, bon, direct. Et ça tourne vite.</p><div class="cards"><article class="card" data-reveal><b>Produits locaux</b><p>Sourcés au marché chaque matin.</p><div class="m"><span class="pill">Local</span><span class="pill">Casablanca</span></div></article><article class="card" data-reveal><b>Carte créative</b><p>Renouvelée chaque mois selon les arrivages.</p><div class="m"><span class="pill">Créatif</span><span class="pill">Casablanca</span></div></article><article class="card" data-reveal><b>Formules business</b><p>Déjeuner d&#x27;affaires servi en 30 min.</p><div class="m"><span class="pill">Business</span><span class="pill">Casablanca</span></div></article><article class="card" data-reveal><b>Cuisine ouverte</b><p>Venez voir comment on travaille.</p><div class="m"><span class="pill">Open kitchen</span><span class="pill">Casablanca</span></div></article><article class="card" data-reveal><b>Desserts artisanaux</b><p>Prpars chaque jour par notre ptissier.</p><div class="m"><span class="pill">Ptisserie</span><span class="pill">Casablanca</span></div></article><article class="card" data-reveal><b>Privatisation</b><p>La salle entière pour vos événements.</p><div class="m"><span class="pill">Exclusif</span><span class="pill">Casablanca</span></div></article></div></div></section><section id="menu"><div class="wrap"><h2 class="h2">Menu rapide</h2><p class="p">Exemples (prix indicatifs). Demandez le menu du jour sur WhatsApp.</p><div class="menuGrid"><div class="mcard" data-reveal><div><b>Zaalouk fumé</b><span>Aubergine, tomate, huile d&#x27;olive</span></div><div class="mprice">22 MAD</div></div><div class="mcard" data-reveal><div><b>Briouates</b><span>Poulet ou fromage, croustillant</span></div><div class="mprice">26 MAD</div></div><div class="mcard" data-reveal><div><b>Harira</b><span>Soupe traditionnelle, citron</span></div><div class="mprice">18 MAD</div></div><div class="mcard" data-reveal><div><b>Couscous royal</b><span>Viande + légumes du marché</span></div><div class="mprice">95 MAD</div></div><div class="mcard" data-reveal><div><b>Pastilla</b><span>Poulet, amandes, sucre</span></div><div class="mprice">86 MAD</div></div><div class="mcard" data-reveal><div><b>Tajine poulet citron</b><span>Olives, citron confit</span></div><div class="mprice">78 MAD</div></div><div class="mcard" data-reveal><div><b>Orange à la cannelle</b><span>Simple et frais</span></div><div class="mprice">22 MAD</div></div><div class="mcard" data-reveal><div><b>Assortiment de gteaux</b><span>Sélection maison</span></div><div class="mprice">38 MAD</div></div><div class="mcard" data-reveal><div><b>Thé à la menthe</b><span>Infusion traditionnelle</span></div><div class="mprice">16 MAD</div></div><div class="mcard" data-reveal><div><b>Jus d&#x27;orange</b><span>Pressé minute</span></div><div class="mprice">22 MAD</div></div></div></div></section><section id="experience"><div class="wrap"><h2 class="h2">Ambiance</h2><p class="p">Photos, détails, vibe. Cliquez pour agrandir.</p><div class="gal"><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkjZslwROKtzlHmxjvoKIQAbGuG1lcZMELkaUtKoR7-RG4BvnfxsDW44bv_3j6Ybnh9JLDWfY2vQcdqaAso0cd19JFKSuEt58A1nQPZ1vpklJAozC9ArPL2R7uxeMBQilNP_bx_QhTahmK=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 1" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerkjZslwROKtzlHmxjvoKIQAbGuG1lcZMELkaUtKoR7-RG4BvnfxsDW44bv_3j6Ybnh9JLDWfY2vQcdqaAso0cd19JFKSuEt58A1nQPZ1vpklJAozC9ArPL2R7uxeMBQilNP_bx_QhTahmK=w1200-h800-k-no" alt="Zayna Restaurant photo 1" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJcrT_2_6d9gm293aFQPvav2HN2t3Twmh2AW4MKTZANGbibOCgA6KtZcF-4sdGRKbJ4M31-VB8mUBoBNB_9_cUVkFRh3vvhZlMUg0qLdZ3RCH2QSazZ_HUqXtKJBeQfVFeqt7c5wOYFvI=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Photo 2" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJcrT_2_6d9gm293aFQPvav2HN2t3Twmh2AW4MKTZANGbibOCgA6KtZcF-4sdGRKbJ4M31-VB8mUBoBNB_9_cUVkFRh3vvhZlMUg0qLdZ3RCH2QSazZ_HUqXtKJBeQfVFeqt7c5wOYFvI=w1200-h800-p-k-no" alt="Zayna Restaurant photo 2" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7XY8f2MOPXiyy8SEk0O-mnwameJYuSSuF1M8wxjGgSAIO1J1zcnebi4h2RPFHx1PiP90fcE_oqsJuRiLkejlyUiy0FGTTFe9eiACU5IdorkPbo_DCK-Plioe6WpDfQm_T29EvJQ=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Photo 3" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweq7XY8f2MOPXiyy8SEk0O-mnwameJYuSSuF1M8wxjGgSAIO1J1zcnebi4h2RPFHx1PiP90fcE_oqsJuRiLkejlyUiy0FGTTFe9eiACU5IdorkPbo_DCK-Plioe6WpDfQm_T29EvJQ=w1200-h800-p-k-no" alt="Zayna Restaurant photo 3" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerNhX6rYxlY--fslrOVcrNrUu55ImHvDcpu_tLRCDoWSdb-JTdJ0aH9a39nrTuMEnFN7YzpaA9dJ7gWeJCnpdmTi5pX74yWZIEy1qRqvV0TPS8rwiimbBBNGNooMf364ZydRDz07Q=w1200-h800-p-k-no" href="javascript:void(0)" aria-label="Photo 4" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerNhX6rYxlY--fslrOVcrNrUu55ImHvDcpu_tLRCDoWSdb-JTdJ0aH9a39nrTuMEnFN7YzpaA9dJ7gWeJCnpdmTi5pX74yWZIEy1qRqvV0TPS8rwiimbBBNGNooMf364ZydRDz07Q=w1200-h800-p-k-no" alt="Zayna Restaurant photo 4" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo97M3gPtm1VtuyVTIXz2aPCaCOuY3JuLGVFXWO2Xk2BTt31aJZidim_3G5IredpH8EGHb-oQkOMjB1blk6dJDh0613zP6WeTp0eAohZfn8kGkxs7MwE1kRfID7DTzUXCh5HOX60999mGJc=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 5" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweo97M3gPtm1VtuyVTIXz2aPCaCOuY3JuLGVFXWO2Xk2BTt31aJZidim_3G5IredpH8EGHb-oQkOMjB1blk6dJDh0613zP6WeTp0eAohZfn8kGkxs7MwE1kRfID7DTzUXCh5HOX60999mGJc=w1200-h800-k-no" alt="Zayna Restaurant photo 5" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqioK4XF_wbjC407R__o4rGSc6gbYTqWosFjsEzjosvEysUaoGTcYWc_wMVTf_P-7iGy9EuX5c0-QM0iXmq_Er0qc-NTYWvO67DYJN-WM5rmeDlVcJtzUyfUzdoTTCg0z635abE=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 6" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweqioK4XF_wbjC407R__o4rGSc6gbYTqWosFjsEzjosvEysUaoGTcYWc_wMVTf_P-7iGy9EuX5c0-QM0iXmq_Er0qc-NTYWvO67DYJN-WM5rmeDlVcJtzUyfUzdoTTCg0z635abE=w1200-h800-k-no" alt="Zayna Restaurant photo 6" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJcrT_2_6d9gm293aFQPvav2HN2t3Twmh2AW4MKTZANGbibOCgA6KtZcF-4sdGRKbJ4M31-VB8mUBoBNB_9_cUVkFRh3vvhZlMUg0qLdZ3RCH2QSazZ_HUqXtKJBeQfVFeqt7c5wOYFvI=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 7" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwepJcrT_2_6d9gm293aFQPvav2HN2t3Twmh2AW4MKTZANGbibOCgA6KtZcF-4sdGRKbJ4M31-VB8mUBoBNB_9_cUVkFRh3vvhZlMUg0qLdZ3RCH2QSazZ_HUqXtKJBeQfVFeqt7c5wOYFvI=w1200-h800-k-no" alt="Zayna Restaurant photo 7" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweopgyvi99Nv7xSs-UE9Xwi7UF6XASLxJ9gbJwpY05eyHymmPDydo7SCakvOitFKENqdX7Nj7XN03oVKZCtH-maJF8loa-XaNBIrU83MoEOEZFdnPiusmN3RYDX1vAQmIbZcPmiaFr9EdaJv=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 8" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweopgyvi99Nv7xSs-UE9Xwi7UF6XASLxJ9gbJwpY05eyHymmPDydo7SCakvOitFKENqdX7Nj7XN03oVKZCtH-maJF8loa-XaNBIrU83MoEOEZFdnPiusmN3RYDX1vAQmIbZcPmiaFr9EdaJv=w1200-h800-k-no" alt="Zayna Restaurant photo 8" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerruNbKuTBAr7W55ewl3Cpiy_0z7-U_9q82WV7xZKGt5JbcL5s5kmQSHwRfMVUTszmW9UyCmoHd2gfJerqymBO2XMD_jt18Sru4qaf2KR12eG4xeOsAI-INB_BiNQpz-l8arFEC=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 9" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAwerruNbKuTBAr7W55ewl3Cpiy_0z7-U_9q82WV7xZKGt5JbcL5s5kmQSHwRfMVUTszmW9UyCmoHd2gfJerqymBO2XMD_jt18Sru4qaf2KR12eG4xeOsAI-INB_BiNQpz-l8arFEC=w1200-h800-k-no" alt="Zayna Restaurant photo 9" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoswR2_cFIAke1ZhVU9xS5jdoVowo8X_pBwYbK8JOgBMzh4p6idfRKvZgcwkYh2EWUtqKgsZWrv_jjevD-PB545QXxgLB8hczJKaR8HlOqxZ60ZOdNHeTe6pzGU9S6uSGwF4brj=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 10" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoswR2_cFIAke1ZhVU9xS5jdoVowo8X_pBwYbK8JOgBMzh4p6idfRKvZgcwkYh2EWUtqKgsZWrv_jjevD-PB545QXxgLB8hczJKaR8HlOqxZ60ZOdNHeTe6pzGU9S6uSGwF4brj=w1200-h800-k-no" alt="Zayna Restaurant photo 10" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoz54YUUH7-E8W3RR-2cFUFuUCAbPSCA3aTVXsoE0j_GqhhlKebMBSkznVckDz2VgTORpkWBXIYU5rzl6Ewoy4JE2olLOT-avMnXMJLONaRBEPSnOYhC4tmvnep81r0A3QknuWXESiLhCR4=w1200-h800-k-no" href="javascript:void(0)" aria-label="Photo 11" data-reveal><img src="https://lh3.googleusercontent.com/gps-cs-s/AHVAweoz54YUUH7-E8W3RR-2cFUFuUCAbPSCA3aTVXsoE0j_GqhhlKebMBSkznVckDz2VgTORpkWBXIYU5rzl6Ewoy4JE2olLOT-avMnXMJLONaRBEPSnOYhC4tmvnep81r0A3QknuWXESiLhCR4=w1200-h800-k-no" alt="Zayna Restaurant photo 11" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a><a data-lb="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" href="javascript:void(0)" aria-label="Photo 12" data-reveal><img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1400&amp;q=85&amp;auto=format&amp;fit=crop" alt="Zayna Restaurant photo 12" data-fb="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1400&amp;q=85&amp;auto=format&amp;fit=crop|data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20width=%271600%27%20height=%271000%27%3E%3Cdefs%3E%3ClinearGradient%20id=%27g%27%20x1=%270%27%20y1=%270%27%20x2=%271%27%20y2=%271%27%3E%3Cstop%20offset=%270%27%20stop-color=%27#6258a4%27/%3E%3Cstop%20offset=%270.55%27%20stop-color=%27#1047b4%27/%3E%3Cstop%20offset=%271%27%20stop-color=%27#c00bc4%27/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width=%271600%27%20height=%271000%27%20fill=%27url(#g)%27/%3E%3Ccircle%20cx=%271260%27%20cy=%27220%27%20r=%27280%27%20fill=%27rgba(255,255,255,.16)%27/%3E%3Ccircle%20cx=%27320%27%20cy=%27820%27%20r=%27360%27%20fill=%27rgba(0,0,0,.18)%27/%3E%3Ctext%20x=%2780%27%20y=%27140%27%20fill=%27rgba(255,255,255,.85)%27%20font-size=%2764%27%20font-family=%27ui-sans-serif,system-ui%27%20font-weight=%27800%27%3EZayna%20Restaurant%3C/text%3E%3C/svg%3E" onerror="(function(img){try{var raw=img.getAttribute('data-fb')||'';if(!raw)return;var list=raw.split('|');if(!list.length)return;var i=parseInt(img.getAttribute('data-fbi')||'0',10);while(i<list.length && (!list[i] || list[i]===img.getAttribute('src'))){i++;}if(i>=list.length)return;img.setAttribute('data-fbi',String(i+1));img.setAttribute('src',list[i]);}catch(e){}})(this)" loading="lazy" decoding="async" referrerpolicy="no-referrer"><em>Voir</em></a></div></div></section><section id="avis"><div class="wrap"><h2 class="h2">Avis</h2><div class="tgrid"><figure class="t" data-reveal><blockquote>Une adresse qu&#x27;on garde pour soi. Service précis, ambiance chaude, et des saveurs nettes.</blockquote><figcaption><b>Amina B.</b><span>Casablanca</span></figcaption></figure><figure class="t" data-reveal><blockquote>Privatisation pour un anniversaire: organisation impeccable et menu sur-mesure.</blockquote><figcaption><b>Khadija K.</b><span>Casablanca</span></figcaption></figure><figure class="t" data-reveal><blockquote>Le couscous du vendredi est devenu un rituel. Meilleure table de Casablanca.</blockquote><figcaption><b>Rachid S.</b><span>Casablanca</span></figcaption></figure></div></div></section><section id="faq"><div class="wrap"><h2 class="h2">FAQ</h2><p class="p">Réponses rapides aux questions fréquentes.</p><div class="faqs"><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Faut-il réserver ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Oui, surtout le soir et le week-end. Réservation en ligne ou par téléphone.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Options végétariennes ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Oui. Nous adaptons plusieurs plats selon la saison et vos préférences.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Privatisation ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Oui, entreprises et familles. Dites-nous votre date et votre budget.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Livraison ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Selon la zone. Appelez-nous et on confirme délai et disponibilité.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Allergènes ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Dites-le au service, on vous guide sur les plats adaptés.</div></div></div><div class="faq" data-acc-item data-reveal><button class="faq-q" data-acc type="button"><span>Paiement ?</span><i>+</i></button><div class="faq-a" data-acc-panel><div>Espèces et carte selon disponibilité. Confirmation au téléphone.</div></div></div></div></div></section><section id="contact"><div class="wrap"><h2 class="h2">Contact</h2><div class="contact"><div class="box" data-reveal><b>Zayna Restaurant</b><div style="margin-top:8px;color:var(--mut);line-height:1.8">44 Rue Ibnou Khaldoun, Casablanca 20000<br>Casablanca</div><a class="btn2" href="https://wa.me/212522542596?text=Bonjour,%20je%20voudrais%20plus%20d&#x27;informations." target="_blank" rel="noopener">WhatsApp</a></div><div class="box" data-reveal><div>📞 <a href="tel:+212522542596">+212522542596</a></div><div style="margin-top:10px">🗺 <a href="https://www.google.com/maps/place/Zayna+Restaurant/data=!4m7!3m6!1s0xda7cd5966a4738b:0x1c7b6cdee07b2bde!8m2!3d33.577293!4d-7.6073554!16s%2Fg%2F1hc7zqhwn!19sChIJi3OkZlnNpw0R3it74N5sexw" target="_blank" rel="noopener">Google Maps</a></div><div style="margin-top:10px">Réponse rapide (WhatsApp).</div></div></div></div></section></main><footer style="padding:34px 6vw;color:var(--mut);border-top:1px solid var(--line)"><div class="wrap">© 2026 Zayna Restaurant</div></footer><div id="lb" aria-hidden="true"><button type="button" aria-label="Fermer">Fermer</button><img alt="Agrandissement"></div><script>
+(function(){
+  try{
+    // Only enable JS-scoped animations if this script runs correctly.
+    // If anything throws later, we remove the class so the page stays readable.
+    document.documentElement.classList.add('js');
+
+    const q = (s,el=document)=>el.querySelector(s);
+    const qa = (s,el=document)=>Array.from(el.querySelectorAll(s));
+
+    // Mobile nav
+    const burger = q('[data-burger]');
+    const nav = q('[data-nav]');
+    if(burger && nav){
+      burger.addEventListener('click', ()=>{
+        nav.classList.toggle('open');
+        burger.setAttribute('aria-expanded', nav.classList.contains('open') ? 'true':'false');
+      });
+      qa('a[href^="#"]', nav).forEach(a=>a.addEventListener('click', ()=>{
+        nav.classList.remove('open');
+        burger.setAttribute('aria-expanded','false');
+      }));
+    }
+
+    // Reveal on scroll (safe fallback if IntersectionObserver isn't available)
+    const reveals = qa('[data-reveal]');
+    if(reveals.length){
+      if('IntersectionObserver' in window){
+        const io = new IntersectionObserver((entries)=>{
+          entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
+        }, {threshold: 0.12});
+        reveals.forEach(el=>io.observe(el));
+      }else{
+        reveals.forEach(el=>el.classList.add('in'));
+      }
+    }
+
+    // Accordions
+    qa('[data-acc]').forEach(acc=>{
+      acc.addEventListener('click', ()=>{
+        const item = acc.closest('[data-acc-item]');
+        const opened = item.classList.toggle('open');
+        const panel = q('[data-acc-panel]', item);
+        if(panel){ panel.style.maxHeight = opened ? panel.scrollHeight+'px' : '0px'; }
+      });
+    });
+
+    // Tabs
+    qa('[data-tabs]').forEach(root=>{
+      const btns = qa('[data-tab]', root);
+      const panes = qa('[data-pane]', root);
+      const activate = (id)=>{
+        btns.forEach(b=>b.classList.toggle('on', b.getAttribute('data-tab')===id));
+        panes.forEach(p=>p.classList.toggle('on', p.getAttribute('data-pane')===id));
+      };
+      btns.forEach(b=>b.addEventListener('click', ()=>activate(b.getAttribute('data-tab'))));
+      if(btns[0]) activate(btns[0].getAttribute('data-tab'));
+    });
+
+    // Lightbox
+    const lb = q('#lb');
+    const lbImg = q('#lb img');
+    const lbClose = q('#lb button');
+    if(lb && lbImg){
+      qa('[data-lb]').forEach(el=>{
+        el.addEventListener('click', ()=>{
+          const im = el.querySelector('img');
+          const src = (im && (im.currentSrc || im.src)) || el.getAttribute('data-lb');
+          if(!src) return;
+          lbImg.src = src;
+          lb.classList.add('on');
+        });
+      });
+      const close = ()=>{ lb.classList.remove('on'); lbImg.src=''; };
+      if(lbClose) lbClose.addEventListener('click', close);
+      lb.addEventListener('click', (e)=>{ if(e.target===lb) close(); });
+      document.addEventListener('keydown', (e)=>{ if(e.key==='Escape') close(); });
+    }
+
+    // Image fallback (when a remote image is blocked/expired)
+    // Supports multiple fallbacks via: data-fb="url1|url2"
+    qa('img[data-fb]').forEach(img=>{
+      const raw = (img.getAttribute('data-fb')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      img.addEventListener('error', ()=>{
+        let i = parseInt(img.getAttribute('data-fbi')||'0', 10);
+        while(i < list.length && (!list[i] || list[i] === img.getAttribute('src'))){ i++; }
+        if(i >= list.length) return;
+        img.setAttribute('data-fbi', String(i+1));
+        img.src = list[i];
+      });
+    });
+
+    // Background image fallback (hero/media blocks)
+    // Usage: <div class="hbg" data-bg="url1|url2|..."></div>
+    // We probe URLs sequentially with an Image() to detect failures, then set backgroundImage.
+    qa('[data-bg]').forEach(el=>{
+      const raw = (el.getAttribute('data-bg')||'').trim();
+      if(!raw) return;
+      const list = raw.split('|').map(s=>s.trim()).filter(Boolean);
+      if(!list.length) return;
+      let idx = 0;
+      const setBg = (u)=>{
+        const safe = String(u||'').replace(/['"]/g, (m)=> m==="'" ? "%27" : "%22");
+        el.style.backgroundImage = "url('" + safe + "')";
+      };
+      // Paint something immediately; if it fails, the probe will replace it.
+      try{ if(!el.style.backgroundImage) setBg(list[0]); }catch(e){}
+      const probe = ()=>{
+        if(idx >= list.length) return;
+        const u = list[idx++];
+        if(!u) return probe();
+        const img = new Image();
+        img.onload = ()=>{ try{ setBg(u); }catch(e){} };
+        img.onerror = ()=>{ probe(); };
+        img.src = u;
+      };
+      probe();
+    });
+
+    // Header shadow on scroll
+    const header = q('header');
+    if(header){
+      const onScroll = ()=>header.classList.toggle('sc', window.scrollY>8);
+      window.addEventListener('scroll', onScroll, {passive:true});
+      onScroll();
+    }
+  }catch(e){
+    try{ document.documentElement.classList.remove('js'); }catch(_e){}
+  }
+})();
+</script></body></html>
